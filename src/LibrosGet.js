@@ -133,7 +133,7 @@ function LibrosGet() {
                 }
                 // console.log(counter);
             })
-    }, [counter, numcovers]); //
+    }, [counter, numcovers, total]); //
 
 
     function anteriores() {

@@ -34,6 +34,7 @@ function UsuariosPost() {
             case "tlfno":
                 setTlfno(event.target.value);
                 break;
+            default :
         }
     }
 

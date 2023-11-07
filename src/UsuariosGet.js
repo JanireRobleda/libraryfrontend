@@ -68,7 +68,7 @@ function UsuariosGet() {
                 }
                 // console.log(counterTable);
             })
-    }, [counterTable])
+    }, [counterTable, total])
 
     function anterioresTable(){
         setCounterTable(counterTable - 10);

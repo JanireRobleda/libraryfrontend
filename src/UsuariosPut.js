@@ -50,6 +50,7 @@ function UsuariosPut() {
             case "tlfno":
                 setTlfno(event.target.value);
                 break;
+            default :    
         }
     }
 

@@ -30,6 +30,7 @@ function LoginAdmin() {
             case "password2":
                 setPassword2(event.target.value);
                 break;
+            default:
         }
     }
 

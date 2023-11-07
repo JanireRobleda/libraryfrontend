@@ -45,6 +45,8 @@ function LibrosPut() {
                 break;
             case "img":
                 setImg(event.target.value);
+                break;
+            default:
         }
     }
 
