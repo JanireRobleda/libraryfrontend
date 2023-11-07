@@ -1,6 +1,6 @@
 // import { BrowserRouter, Route, Link, useParams } from 'react-router-dom';
 import UsuariosMainLeft from './UsuariosMainLeft';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 function UsuariosDelete() {
 

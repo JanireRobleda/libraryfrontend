@@ -50,7 +50,7 @@ function UsuariosGet() {
                         </tr>
                     )
                 }))
-                if (counterTable != 0){
+                if (counterTable !== 0){
                     setDisableBut1Table(false);
                 }else{
                     setDisableBut1Table(true);

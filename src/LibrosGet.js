@@ -1,7 +1,6 @@
 // import { BrowserRouter, Route, Link, useParams } from 'react-router-dom';
 import flechaizq from './style/flechaizq.png';
 import flechader from './style/flechader.png';
-import bin from './style/bin.png';
 import LibrosMainLeft from './LibrosMainLeft';
 import React, { useEffect, useState } from 'react';
 
@@ -116,7 +115,7 @@ function LibrosGet() {
                         </div>
                     )
                 }))
-                if (counter != 0) {
+                if (counter !== 0) {
                     setDisableBut1(false);
                 } else {
                     setDisableBut1(true);
@@ -134,7 +133,7 @@ function LibrosGet() {
                 }
                 // console.log(counter);
             })
-    }, [counter, numcovers]) //
+    }, [counter, numcovers]); //
 
 
     function anteriores() {

@@ -43,7 +43,7 @@ function UsuariosPost() {
         let lastchar = dni[dni.length - 1];
         let onetoeightchars = dni.substring(0, 8);
         if (dni.length >= 5) {
-            if (dni.length != 9 || !/[A-Z]/.test(lastchar) || !/[0-9]/.test(onetoeightchars)) {
+            if (dni.length !== 9 || !/[A-Z]/.test(lastchar) || !/[0-9]/.test(onetoeightchars)) {
                 setdnival("No es un formato válido de DNI");
                 setdnivalcol("rgb(119, 23, 6)");
             } else {

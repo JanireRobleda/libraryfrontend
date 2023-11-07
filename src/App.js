@@ -1,6 +1,5 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Route, Link, useParams } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import LoginAdmin from './LoginAdmin';
 import Header from './Header';

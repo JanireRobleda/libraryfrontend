@@ -1,4 +1,3 @@
-import { BrowserRouter, Route, Link, useParams } from 'react-router-dom';
 import maillogo from './style/maillogo.png';
 import BibliotecasMainLeft from './BibliotecasMainLeft';
 import React, { useEffect, useState } from 'react';

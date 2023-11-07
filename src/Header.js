@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Link, useParams } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import logoutdoor from './style/logoutdoor.png';
 
 

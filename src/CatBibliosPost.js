@@ -1,4 +1,3 @@
-import { BrowserRouter, Route, Link, useParams } from 'react-router-dom';
 import CatBibliosMainLeft from './CatBibliosMainLeft';
 import React, { useEffect, useState } from 'react';
 
@@ -44,7 +43,7 @@ function CatBibliosPost() {
         setMsg("");
         // console.log(isbn.length);
         if (isbn.length >= 5) {
-            if (isbn.length != 13 || /[A-z]/.test(isbn)) {
+            if (isbn.length !== 13 || /[A-z]/.test(isbn)) {
                 setisbnval("No es un formato válido de ISBN");
                 setisbnvalcol("rgb(119, 23, 6)");
             } else {
